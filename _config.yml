@@ -30,8 +30,8 @@ email: mail@sobolevn.me
 navigation:
   - text: Home
     url: /
-  - text: Docs
-    url: /docs
+  - text: Bio
+    url: /bio
   - text: Examples
     url: /examples
 
