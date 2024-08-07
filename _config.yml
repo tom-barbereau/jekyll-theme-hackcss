@@ -52,6 +52,9 @@ projects:
     link: https://github.com/sobolevn/django-split-settings
 
 social:
+  - service: github
+    username: tom-barbereau
+    link: https://github.com/tom-barbereau
   - service: linkedin
     username: tom-barbereau
     link: https://linkedin.com/tom-barbereau
