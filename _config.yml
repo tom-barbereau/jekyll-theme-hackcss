@@ -52,12 +52,15 @@ projects:
     link: https://github.com/sobolevn/django-split-settings
 
 social:
-  - service: github
-    username: sobolevn
-    link: https://github.com/sobolevn
+  - service: linkedin
+    username: tom-barbereau
+    link: https://linkedin.com/tom-barbereau
   - service: twitter
-    username: sobolevn
-    link: https://twitter.com/sobolevn
+    username: TomBarbereau
+    link: https://twitter.com/TomBarbereau
+  - service: googlescholar
+    username: Tom Barbereau
+    link: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
 
 # Plugins
 gems:
