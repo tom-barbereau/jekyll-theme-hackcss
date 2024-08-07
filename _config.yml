@@ -55,15 +55,9 @@ social:
   - service: github
     username: tom-barbereau
     link: https://github.com/tom-barbereau
-  - service: linkedin
-    username: tom-barbereau
-    link: https://linkedin.com/tom-barbereau
   - service: twitter
     username: TomBarbereau
     link: https://twitter.com/TomBarbereau
-  - service: googlescholar
-    username: Tom Barbereau
-    link: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
 
 # Plugins
 gems:
