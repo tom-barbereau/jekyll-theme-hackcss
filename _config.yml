@@ -32,8 +32,10 @@ navigation:
     url: /
   - text: Bio
     url: /bio
-  - text: Examples
-    url: /examples
+  - text: Blog
+    url: /blog
+  - text: Portfolio
+    url: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
 
 projects:
   - name: git-secret
