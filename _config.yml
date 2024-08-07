@@ -58,6 +58,9 @@ social:
   - service: twitter
     username: TomBarbereau
     link: https://twitter.com/TomBarbereau
+  - service: linkedin
+    username: tom-barbereau
+    link: https://linkedin.com/tom-barbereau
 
 # Plugins
 gems:
