@@ -1,7 +1,7 @@
 ---
 layout: post
 title: I’m a Luddite, You should be one too!
-date: 2021-00-07
+date: 2021-01-08
 author: external
 categories: bash
 short_description: A neo-Luddite movement would understand no technology.
