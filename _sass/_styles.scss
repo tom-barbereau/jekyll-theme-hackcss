@@ -3,13 +3,18 @@
 .t-hackcss {  // Main prefix to avoid collisions
 
   // body format
-  
   &-body {
     font-family: 'Helvetica', 'Arial', sans-serif !important;
   }
 
-  // navigation.html
+  // Add symbol for all external links on the site
+  a[target="_blank"]::after {
+    content: " ↗"; /* Symbol to display */
+    font-size: 0.85em; /* Adjust size if needed */
+    margin-left: 0.2em; /* Space between the link text and the symbol */
+  }
 
+  // navigation.html
   &-navigation {
     padding-right: $spacing-unit;
   }
@@ -19,71 +24,69 @@
   }
 
   // footer.html
+  @at-root body &-footer {
+    padding-bottom: $spacing-unit;
 
- @at-root body &-footer {
-  padding-bottom: $spacing-unit;
+    .footer-first-line,
+    .footer-second-line {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      flex-wrap: wrap;
+      padding: $spacing-unit 0;
+    }
 
-  .footer-first-line,
-  .footer-second-line {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-wrap: wrap;
-    padding: $spacing-unit 0;
+    .footer-first-line .footer-left {
+      flex: 1;
+      font-size: inherit;
+    }
+
+    .footer-first-line .footer-right {
+      flex: 1;
+      text-align: right;
+    }
+
+    .footer-second-line .social-links {
+      display: flex;
+      flex-wrap: wrap;
+      gap: $spacing-unit;
+    }
+
+    a {
+      text-decoration: none;
+    }
+
+    p {
+      margin: 0;
+    }
   }
 
-  .footer-first-line .footer-left {
-    flex: 1;
-    font-size: inherit;
+  &-social {
+    display: inline-block;
   }
 
-  .footer-first-line .footer-right {
-    flex: 1;
-    text-align: right;
+  &-social + &-social {
+    padding-left: $spacing-unit;
   }
 
-  .footer-second-line .social-links {
-    display: flex;
-    flex-wrap: wrap;
-    gap: $spacing-unit;
+  &-sm-reversed-grid.grid {
+    @include media-query($on-palm) {
+      flex-direction: column-reverse;
+    }
   }
 
-  a {
-    text-decoration: none;
-  }
-
-  p {
-    margin: 0;
-  }
-}
-
-&-social {
-  display: inline-block;
-}
-
-&-social + &-social {
-  padding-left: $spacing-unit;
-}
-
-&-sm-reversed-grid.grid {
-  @include media-query($on-palm) {
-    flex-direction: column-reverse;
-  }
-}
-
-&-icon {
-  display: inline-block;
-  vertical-align: middle;
-  width: $icon-size;
-  height: $icon-size;
-
-  > svg {
+  &-icon {
+    display: inline-block;
+    vertical-align: middle;
     width: $icon-size;
+    height: $icon-size;
+
+    > svg {
+      width: $icon-size;
+    }
   }
-}
 
   // examples.html
-
   &-media {
     margin-bottom: 1.25rem;
   }
@@ -111,7 +114,7 @@
   }
 
   &-cards-text {
-    margin: 0
+    margin: 0;
   }
 
   &-cards-image {
