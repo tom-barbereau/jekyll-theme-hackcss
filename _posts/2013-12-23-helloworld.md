@@ -1,10 +1,16 @@
 ---
 layout: post
-title: Creating Python wrapper around C++ API
-date: 2013-12-23
+title: "The Metaverse’s Thirtieth Anniversary: From a Science-Fictional Concept
+  to the “Connect Wallet” Prompt"
+date: 2023-07-22
+author: tom barbereau
 categories: ruby
-short_description: This post will cover all the process of parsing JSON with Ruby.
+short_description: in Philosophy and Technology.
 ---
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent lacus est, sollicitudin sit amet molestie et, sodales vel ex. Vivamus lobortis blandit nibh, eu cursus justo ultrices ultricies. Nunc vitae ipsum imperdiet, mattis elit nec, sollicitudin nulla. Phasellus magna tortor, accumsan sit amet sapien eu, rhoncus consectetur est. Nunc pellentesque quam odio, eu cursus ex porttitor at. Sed ut neque dolor. Morbi ut rhoncus lectus. Ut luctus, enim ac interdum tempor, eros erat feugiat ante, sit amet feugiat magna quam non dolor. Pellentesque fermentum quam in justo mollis facilisis. Integer et tortor urna. Proin aliquam purus auctor sagittis mollis. Proin a sollicitudin turpis. In rhoncus eget massa id feugiat. Duis rutrum ligula eget erat feugiat, nec placerat ante facilisis. Suspendisse iaculis neque eu elementum mollis. Ut tempus libero sed congue iaculis.
+The metaverse is equivocal. It is a science-fictional concept from the past; it is the present’s rough implementations; and it is the Promised Cyberland, expected to manifest some time in the future. The metaverse first emerged as a techno-capitalist network in a 1992 science fiction novel by Neal Stephenson. Our article thus marks the metaverse’s thirtieth anniversary.
 
-Nullam molestie at risus vel aliquam. Morbi ornare cursus facilisis. Praesent tristique lobortis mi in ornare. Donec placerat arcu at ultricies ultricies. Proin ut iaculis erat. Nulla nec erat rutrum, blandit nunc volutpat, faucibus justo. Nam vel consectetur nunc.
+We revisit Stephenson’s original concept plus three sophisticated antecedents from 1972 to 1984: Jean Baudrillard’s simulation, Sherry Turkle’s networked identities, and Jacques Lacan’s schema of suggestible consumers hooked up to a Matrix-like capitalist network. We gauge the relevance of these three antecedents following Meta’s recent promise to deliver a metaverse for the mainstream and the emergence of blockchain-oriented metaverse projects. We examine empirical data from 2021 and 2022, sourced from journalistic and social media (BuzzSumo, Google Trends, Reddit, and Twitter) as well as the United States Patent and Trademark Office.
+
+This latest chapter of the metaverse’s convoluted history reveals a focus not on virtual reality goggles but rather on techno-capitalist notions like digital wallets, crypto-assets, and targeted advertisements. The metaverse’s wallet-holders collect status symbols like limited-edition profile pictures, fashion items for avatars, tradable pets and companions, and real estate. Motivated by the metaverse’s sophisticated antecedents and our empirical findings, we propose a subtle conceptual re-orientation that respects the metaverse’s equivocal nature and rejects sanitised solutionism. Do not let the phantasmagorical goggles distract you too much: Big Meta is watching you, and it expects you to become a wallet-holder. Blockchain proponents want this as well.
+
+**Reference**: Smethurst, R., Barbereau, T., & Nilsson, J. (2023). The Metaverse’s Thirtieth Anniversary: From a Science-Fictional Concept to the “Connect Wallet” Prompt. _Philosophy & Technology_, 36(3), 51. doi: [10.1007/s13347-023-00612-z](https://doi.org/10.1007/s13347-023-00612-z)
