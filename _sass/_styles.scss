@@ -2,6 +2,12 @@
 
 .t-hackcss {  // Main prefix to avoid collisions
 
+  // body format
+  
+  &-body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+  }
+
   // navigation.html
 
   &-navigation {
