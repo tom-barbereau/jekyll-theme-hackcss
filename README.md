@@ -1,27 +1,8 @@
-# jekyll-theme-hackcss
+# Welcome to the repository of my personal website
 
-[Dead simple CSS framework](https://hackcss.egoist.moe/) now with Jekyll.
+Thank you for visiting my personal website hosted on GitHub! Below you'll find some information about this repository and how to navigate through it.
 
-Mobile-ready, modern, stylish, simple.
+## About
+This repository hosts the code for my personal website. It serves as a platform to showcase my portfolio, share my interests, and connect with others.
 
-## Theme modes
-
-This theme comes in three modes, which could be configured in `_config.yml`.
-
-![Markdown](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/markdown.png)
-
-![Standard](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/standard.png)
-
-![Dark](https://raw.githubusercontent.com/wemake-services/jekyll-theme-hackcss/3cbe97b71a56a19eba386dd928e125b71e50c71e/images/dark.png)
-
-## Installation
-
-Clone this repo. Create your own website. Easy.
-
-## Configuration
-
-See [docs](https://github.com/wemake-services/jekyll-theme-hackcss/blob/gh-pages/docs.md).
-
-## License
-
-GNU PGL 3. See [LICENSE](https://github.com/wemake-services/jekyll-theme-hackcss/blob/3cbe97b71a56a19eba386dd928e125b71e50c71e/LICENSE) for more information.
+The theme is based on [Dead simple CSS framework](https://hackcss.egoist.moe/) now built on Jekyll.
