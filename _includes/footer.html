@@ -10,13 +10,15 @@
           <a href="mailto:{{ site.email }}">{{ site.email }}</a>
         </p>
 
-        {% for social in site.social %}
-          {% assign template = social.service|prepend:"icon-"|append:".html" %}
-          <span class="t-hackcss-social">
-            <i class="t-hackcss-icon">{% include {{ template }} %}</i>
-            <a href="{{ social.link }}">{{ social.username }}</a>
-          </span>
-        {% endfor %}
+        {% if site.social %}
+          {% for social in site.social %}
+            {% assign template = "icon-" | append: social.service | append: ".html" %}
+            <span class="t-hackcss-social">
+              <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i>
+              <a href="{{ social.link }}">{{ social.username }}</a>
+            </span>
+          {% endfor %}
+        {% endif %}
       </div>
     </div>
 
@@ -26,5 +28,4 @@
       <p>{{ site.description }}</p>
     </div>
   </div>
-
 </footer>
