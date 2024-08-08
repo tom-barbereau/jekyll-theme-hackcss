@@ -1,6 +1,7 @@
 ---
+layout: post
 title: Web3, the Metaverse, and the Lack of Useful Innovation
-date: 2022-00-01
+date: 2021-00-31
 categories: bash
 short_description: '"While exuberance around a host of new technologies from the
   past dec­ade—like self-driving cars, delivery apps, home flipping, and
