@@ -1,7 +1,7 @@
 content:
   - name: posts
     label: Posts
-    path: _posts
+    path: '_posts'
     type: collection
     fields: 
       - name: layout
@@ -15,9 +15,6 @@ content:
       - name: date 
         label: Date, 
         type: date
-        options:
-          time: true
-          format: yyyy-mm-dd
       - name: author
         label: author
         type: string
