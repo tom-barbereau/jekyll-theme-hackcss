@@ -2,17 +2,6 @@
 
 .t-hackcss {  // Main prefix to avoid collisions
 
-  // body format
-  &-body {
-    font-family: 'Helvetica', 'Arial', sans-serif !important;
-  }
-
-  // Add symbol for all external links on the site
-  a[target="_blank"]::after {
-    content: " ↗"; /* Symbol to display */
-    font-size: 0.85em; /* Adjust size if needed */
-    margin-left: 0.2em; /* Space between the link text and the symbol */
-  }
 
   // navigation.html
   &-navigation {
