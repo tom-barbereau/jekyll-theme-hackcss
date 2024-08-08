@@ -51,7 +51,8 @@
   }
 
   &-social {
-    display: inline-block;
+    display: flex;
+    align-items: center;
   }
 
   &-social + &-social {
