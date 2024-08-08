@@ -8,7 +8,7 @@
 # Site settings
 title: tom-barbereau
 description: > # this means to ignore newlines until "baseurl:"
-  A minimalistic theme for Jekyll, based on hack.css
+  Personal website of Dr. Tom Barbereau.
 repository: https://github.com/wemake-services/jekyll-theme-hackcss
 baseurl: /  # the subpath of your site, e.g. /blog
 url: https://tom-barbereau.github.io  # the base hostname & protocol for your site
@@ -25,7 +25,7 @@ theme_mode: markdown  # choices are: 'dark', 'standard', 'markdown'
 
 # Customizations
 your_name: tom barbereau
-email: mail@sobolevn.me
+email: tom.barbereau@tno.nl
 
 navigation:
   - text: Home
@@ -63,6 +63,9 @@ social:
   - service: linkedin
     username: tom-barbereau
     link: https://linkedin.com/tom-barbereau
+  - service: googlescholar
+    username: tom-barbereau
+    link: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
 
 # Plugins
 gems:
