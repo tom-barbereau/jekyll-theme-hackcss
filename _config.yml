@@ -30,12 +30,10 @@ email: mail@sobolevn.me
 navigation:
   - text: Home
     url: /
-  - text: Bio
-    url: /bio
-  - text: Blog
-    url: /blog
   - text: Portfolio
     url: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
+  - text: Blog
+    url: /blog
 
 projects:
   - name: git-secret
