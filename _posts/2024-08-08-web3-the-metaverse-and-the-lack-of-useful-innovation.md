@@ -1,0 +1,9 @@
+---
+layout: post
+title: Web3, the Metaverse, and the Lack of Useful Innovation
+date: 2022-11-01
+author: extenral
+categories: bash
+short_description: test test
+external_url: https://americanaffairsjournal.org/2022/11/web3-the-metaverse-and-the-lack-of-useful-innovation/
+---
