@@ -4,6 +4,10 @@ content:
     path: _posts
     type: collection
     fields: 
+      - name: layout
+        label: Layout
+        type: string
+        required: true
       - name: title
         label: Title
         type: string
