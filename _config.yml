@@ -55,17 +55,20 @@ projects:
 
 social:
   - service: github
-    username: tom-barbereau
+    username: github
     link: https://github.com/tom-barbereau
   - service: twitter
-    username: TomBarbereau
+    username: twitter
     link: https://twitter.com/TomBarbereau
   - service: linkedin
-    username: tom-barbereau
+    username: linkedin
     link: https://linkedin.com/tom-barbereau
   - service: googlescholar
-    username: tom-barbereau
+    username: googlescholar
     link: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
+  - service: telegram
+    username: telegram
+    link: https://t.me/tombarbereau
 
 # Plugins
 gems:
