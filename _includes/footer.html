@@ -1,31 +1,30 @@
 <footer class="t-hackcss-footer">
   <hr />
 
-  <div class="grid t-hackcss-sm-reversed-grid">
-
-    <div class="cell -5of12">
-      <div class="contact-list">
-        <p>
-          {{ site.your_name }},
-          <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-        </p>
-
-        {% if site.social %}
-          {% for social in site.social %}
-            {% assign template = "icon-" | append: social.service | append: ".html" %}
-            <span class="t-hackcss-social">
-              <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i>
-              <a href="{{ social.link }}">{{ social.username }}</a>
-            </span>
-          {% endfor %}
-        {% endif %}
-      </div>
+  <!-- First Line: Title, Email, Description -->
+  <div class="footer-first-line">
+    <div class="footer-left">
+      <span>{{ site.your_name }}</span>,
+      <a href="mailto:{{ site.email }}">{{ site.email }}</a>
     </div>
-
-    <div id="footer-spacer" class="cell -1of12"></div>
-
-    <div class="cell -6of12">
+    <div class="footer-right">
       <p>{{ site.description }}</p>
     </div>
   </div>
+
+  <!-- Second Line: Social Media Links -->
+  <div class="footer-second-line">
+    <div class="social-links">
+      {% if site.social %}
+        {% for social in site.social %}
+          {% assign template = "icon-" | append: social.service | append: ".html" %}
+          <span class="t-hackcss-social">
+            <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i>
+            <a href="{{ social.link }}">{{ social.username }}</a>
+          </span>
+        {% endfor %}
+      {% endif %}
+    </div>
+  </div>
+
 </footer>
