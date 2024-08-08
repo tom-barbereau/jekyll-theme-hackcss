@@ -1,7 +1,6 @@
 ---
 layout: post
-title: "The Metaverse’s Thirtieth Anniversary: From a Science-Fictional Concept
-  to the “Connect Wallet” Prompt"
+title: The Metaverse’s Thirtieth Anniversary
 date: 2023-07-22
 author: tom barbereau
 categories: ruby
