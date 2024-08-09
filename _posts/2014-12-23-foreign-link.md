@@ -1,9 +1,9 @@
 ---
 layout: post
-title: Testing bash applications
-date: 2014-01-15
-author: sobolevn
+title: Pick a nonce and try a hash
+date: 2019-04-18
+author: external
 categories: bash
-short_description: This is an overview post about testing frameworks in bash.
-external_url: https://habrahabr.ru/post/278937/
+short_description: Donald MacKenzie in the London Review of Books.
+external_url: https://www.lrb.co.uk/the-paper/v41/n08/donald-mackenzie/pick-a-nonce-and-try-a-hash
 ---
