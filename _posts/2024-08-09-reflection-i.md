@@ -3,8 +3,7 @@ layout: post
 title: Why I study technology
 date: 2024-08-09
 author: tom barbereau
-categories: ruby
-tag: thoughts
+categories: thoughts
 ---
 In my own position of privilege, technology has benefited me. I grew up using my mother’s Microsoft - a toy to play anything from Age of Empires to Warcraft. Pre-Facebook, the German Schüler-VZ (“ver-zeichnis”, meaning registry) allowed me to connect with peers. My father introduced me to Limewire and digital libraries. Unwillingly, he introduced me to the peer to peer world that allowed me to access any digital thing as if in a candy shop.
 
