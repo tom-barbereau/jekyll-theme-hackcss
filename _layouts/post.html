@@ -25,6 +25,14 @@ layout: default
             </a>
         {% endfor %}
       {%- endif -%}
+
+      {%- if page.categories -%}
+        {% for category in page.categories %}
+        <a href="{{site.baseurl}}/{{category | slugize}}/">
+            #{{ category }}
+        </a>
+      {% endfor %}
+{%- endif -%}
     </p>
   </header>
 
