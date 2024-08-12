@@ -27,6 +27,9 @@ content:
       - name: external_url
         label: External Url
         type: link
+      - name: tag
+        label: Tag
+        type: string
       - name: body
         label: Body
         type: rich-text
