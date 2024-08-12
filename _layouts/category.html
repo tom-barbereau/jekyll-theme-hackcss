@@ -8,22 +8,32 @@ layout: default
   </header>
 
   <div class="post-content" itemprop="articleBody">
-    <ul>
-      {% assign category_posts = site.categories[page.title] %}
-      {% if category_posts.size > 0 %}
-        {% for post in category_posts %}
-          <li>
-            <a href="{{ post.url | relative_url }}" itemprop="url">
-              <span itemprop="name">{{ post.title }}</span>
-            </a>
-            <time datetime="{{ post.date | date_to_xmlschema }}" itemprop="datePublished">
-              {{ post.date | date: "%b %-d, %Y" }}
-            </time>
-          </li>
-        {% endfor %}
-      {% else %}
-        <p>No posts available in this category.</p>
-      {% endif %}
-    </ul>
+    {% assign category_posts = site.categories[page.title] %}
+    {% if category_posts.size > 0 %}
+      {% for post in category_posts %}
+        <div class="media t-hackcss-media">
+          <div class="media-body">
+            <div class="media-heading">
+              <span>{{ post.date | date_to_string }} &raquo;
+                {% if post.external_url %}
+                  <a href="{{ post.external_url }}" target="_blank" title="{{ post.title }}">
+                    {{ post.title }}
+                  </a>
+                {% else %}
+                  <a href="{{ post.url | prepend: site.baseurl }}" title="{{ post.title }}">
+                    {{ post.title }}
+                  </a>
+                {% endif %}
+              </span>
+            </div>
+            <div class="media-content">
+              {{ post.short_description | default: post.excerpt }}
+            </div>
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <p>No posts available in this category.</p>
+    {% endif %}
   </div>
 </article>
