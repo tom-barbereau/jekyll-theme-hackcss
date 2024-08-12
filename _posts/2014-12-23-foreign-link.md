@@ -6,4 +6,5 @@ author: external
 categories: bash
 short_description: Donald MacKenzie in the London Review of Books.
 external_url: https://www.lrb.co.uk/the-paper/v41/n08/donald-mackenzie/pick-a-nonce-and-try-a-hash
+tag: academic
 ---
