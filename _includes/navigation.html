@@ -2,13 +2,14 @@
   <h2 class="t-hackcss-navigation-heading">Tom Barbereau</h2>
 
   <nav class="menu" role="menubar">
-    {% assign url = page.url|remove:'index.html' %}
+    {% assign url = page.url | remove:'index.html' %}
     {% for link in site.navigation %}
       <a class="menu-item {% if url == link.url %}active{% endif %}"
-        role="menuitem" href="{{ link.url | prepend: site.baseurl }}" title="{{ link.title }}">
+         role="menuitem" href="{{ link.url | prepend: site.baseurl }}" 
+         title="{{ link.title }}"
+         {% if link.target %}target="{{ link.target }}"{% endif %}>
         {{ link.text }} <div class="pull-right">»</div>
       </a>
     {% endfor %}
   </nav>
-
 </div>
