@@ -6,4 +6,5 @@ author: external
 categories: bash
 short_description: Elizabeth Lopatto in The Verge.
 external_url: https://www.theverge.com/2024/7/24/24204706/marc-andreessen-ben-horowitz-a16z-trump-donations
+tag: news
 ---
