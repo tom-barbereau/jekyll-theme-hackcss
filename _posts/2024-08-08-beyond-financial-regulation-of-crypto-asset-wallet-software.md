@@ -3,7 +3,7 @@ layout: post
 title: Beyond financial regulation of crypto-asset wallet software
 date: 2023-05-14
 author: tom barbereau
-categories: ruby
+categories: academic
 short_description: in Computer Law & Security Review.
 ---
 Since Bitcoin, the blockchain space considerably evolved. One crucial piece of software to interact with blockchains and hold private-public key pairs to distinct crypto-assets and securities are wallets. Wallet software can be offered by liable third-parties (‘custodians’) who hold certain rights over assets and transactions.
