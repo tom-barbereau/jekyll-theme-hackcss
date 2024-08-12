@@ -8,7 +8,7 @@
         {% for social in site.social %}
           {% assign template = "icon-" | append: social.service | append: ".html" %}
           <span class="t-hackcss-social">
-            <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i>
+            <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i> &nbsp
             <a href="{{ social.link }}">{{ social.username }}</a>
           </span>
         {% endfor %}
