@@ -6,4 +6,5 @@ author: external
 categories: bash
 short_description: Funk, Vinsel, and McConnell in American Affairs Journal.
 external_url: https://americanaffairsjournal.org/2022/11/web3-the-metaverse-and-the-lack-of-useful-innovation/
+tag: academic
 ---
