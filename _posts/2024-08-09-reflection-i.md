@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Why I study technology
+title: Reflection on why I study technology
 date: 2024-08-09
 author: tom barbereau
 categories: thoughts
