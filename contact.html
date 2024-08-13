@@ -5,36 +5,24 @@ permalink: contact
 
 <section>
 
-  <h1>Contact and connect</h1>
+  <h1>Contact</h1>
 
-  <div class="grid t-hackcss-cards">
+  <p>You can find, contact, or connect with me on the following platforms:</p>
 
-    {% for project in site.projects %}
+  <div class="social-links">
+  {% if site.social %}
+    <ul>
+      {% for social in site.social %}
+        {% assign template = "icon-" | append: social.service | append: ".html" %}
+        <li class="t-hackcss-social">
+          <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i> &nbsp
+          <a href="{{ social.link }}">{{ social.username }}</a>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endif %}
+</div>
 
-    <div class="cell -6of12 t-hackcss-cards-cell">
-      <div class="card">
-        <header class="card-header">{{ project.name }}</header>
-        <div class="card-content">
-          <div class="inner">
-
-            {% if project.image %}
-            <img src="{{ project.image }}" class="t-hackcss-cards-image"
-                 alt="{{ project.name }}"
-                 title="{{ project.name }}" />
-            {% endif %}
-
-            <p class="t-hackcss-cards-text">{{ project.description }}</p>
-            <p class="t-hackcss-cards-link">
-              <a href="{{ project.link }}" title="{{ project.name }}" target="_blank">
-                 {{ project.name }}
-               </a>
-            </p>
-          </div>
-        </div>
-      </div>
-    </div>
-
-    {% endfor %}
-
-  </div>
+  <p>Alternatively, you can also email me directly at <a target="_blank" href="mailto:tom.barbereau@tno.nl">tom.barbereau@tno.nl</a> or chat with me on <a target="_blank" href="https://t.me/tombarbereau">Telegram</a>.</p>
+  
 </section>
