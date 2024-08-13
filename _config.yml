@@ -67,9 +67,6 @@ social:
   - service: googlescholar
     username: googlescholar
     link: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
-  - service: telegram
-    username: telegram
-    link: https://t.me/tombarbereau
 
 # Plugins
 gems:
