@@ -30,11 +30,11 @@ email: tom.barbereau@tno.nl
 navigation:
   - text: Home
     url: /
+  - text: Blog
+    url: /blog
   - text: Portfolio
     url: https://scholar.google.com/citations?user=qvsfsEMAAAAJ&hl=en
     target: "_blank"
-  - text: Blog
-    url: /blog
   - text: Contact
     url: /contact
 
