@@ -1,5 +1,14 @@
 <footer class="t-hackcss-footer">
   <hr>
+
+  {% if page.footnotes %}
+  <div class="footnotes">
+    {{ page.footnotes | markdownify }}
+  </div>
+  {% endif %}
+
+  <hr>
+  
   <!-- Second Line: Social Media Links -->
   <div class="footer-second-line">
     <div class="social-links">
