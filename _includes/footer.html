@@ -1,14 +1,5 @@
 <footer class="t-hackcss-footer">
   <hr>
-
-  <div class="footnotes">
-    {{ content | markdownify | append: "<!-- FOOTNOTES -->" }}
-    {% assign footnotes = content | regex_extract: '<div class="footnotes">(.+?)<\/div>' %}
-    {{ footnotes | markdownify }}
-  </div>
-
-
-  <hr>
   
   <!-- Second Line: Social Media Links -->
   <div class="footer-second-line">
