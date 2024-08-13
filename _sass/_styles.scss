@@ -25,23 +25,6 @@
       padding: $spacing-unit 0;
     }
 
-    .footer-dashed-line {
-  border: none;
-  border-top: 1px dashed #000; /* Customize the color and thickness */
-  margin: 0; /* Adjust margin as needed */
-  width: 100%;
-}
-    
-    .footer-first-line .footer-left {
-      flex: 1;
-      font-size: inherit;
-    }
-
-    .footer-first-line .footer-right {
-      flex: 1;
-      text-align: right;
-    }
-
     .footer-second-line .social-links {
       display: flex;
       flex-wrap: wrap;
