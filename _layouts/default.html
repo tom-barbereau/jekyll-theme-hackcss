@@ -35,4 +35,12 @@
     <script src="https://npmcdn.com/prismjs@1.5.1/prism.js"></script>
   </body>
 
+  <hr>
+    <div class="footnotes">
+      {{ content | markdownify | append: "<!-- FOOTNOTES -->" }}
+      {% assign footnotes = content | regex_extract: '<div class="footnotes">(.+?)<\/div>' %}
+      {{ footnotes | markdownify }}
+    </div>
+
+    
 </html>
