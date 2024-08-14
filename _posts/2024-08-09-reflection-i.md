@@ -5,7 +5,9 @@ date: 2024-08-09
 author: tom barbereau
 categories: thoughts
 ---
-In my own position of privilege, technology has benefited me. I grew up using my mother’s Microsoft - a toy to play anything from Age of Empires to Warcraft. Pre-Facebook, the German Schüler-VZ (“ver-zeichnis”, meaning registry) allowed me to connect with peers. My father introduced me to Limewire and digital libraries. Unwillingly, he introduced me to the peer to peer world that allowed me to access any digital thing as if in a candy shop.
+In my own position of privilege, technology has benefited me. I grew up using my mother’s Microsoft - a toy to play anything from Age of Empires to Warcraft. Pre-Facebook, the German Schüler-VZ (“ver-zeichnis”, meaning registry) allowed me to connect with peers. My father introduced me to Limewire and digital libraries. Unwillingly, he introduced me to the peer to peer world that allowed me to access any digital thing as if in a candy shop.[^1]
+
+[^1]: This is the footnote text.
 
 Fast forward into the next decade. I matured into my later teens, and in parallel, the world of digital platforms matured into a monopoly of the few. In 2013, I remember my grandfather pointing me to Edward Snowden and suggesting to always look beyond the surface. I was too young to understand, too busy with school…
 
