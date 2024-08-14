@@ -1,13 +1,11 @@
 ---
 layout: post
 title: Reflection on why I study technology
-date: 2024-08-09
+date: 2024-08-02
 author: tom barbereau
 categories: thoughts
 ---
-In my own position of privilege, technology has benefited me. I grew up using my mother’s Microsoft - a toy to play anything from Age of Empires to Warcraft. Pre-Facebook, the German Schüler-VZ (“ver-zeichnis”, meaning registry) allowed me to connect with peers. My father introduced me to Limewire and digital libraries. Unwillingly, he introduced me to the peer to peer world that allowed me to access any digital thing as if in a candy shop.[^1]
-
-[^1]: This is the footnote text.
+In my own position of privilege, technology has benefited me. I grew up using my mother’s Microsoft - a toy to play anything from Age of Empires to Warcraft. Pre-Facebook, the German Schüler-VZ (“ver-zeichnis”, meaning registry) allowed me to connect with peers. My father introduced me to Limewire and digital libraries. Unwillingly, he introduced me to the peer to peer world that allowed me to access any digital thing as if in a candy shop.
 
 Fast forward into the next decade. I matured into my later teens, and in parallel, the world of digital platforms matured into a monopoly of the few. In 2013, I remember my grandfather pointing me to Edward Snowden and suggesting to always look beyond the surface. I was too young to understand, too busy with school…
 
@@ -19,7 +17,9 @@ Today, as social scientist, I too am asked [why I study technology](https://www.
 
 In my first masters class in Edinburgh, our lecturer, Robin Williams, sluggishly came into the room and introduced himself. He asked if we had done the only mandatory reading – Langdon Winner’s [Do Artefact Have Politics](https://www.jstor.org/stable/20024652?origin=JSTOR-pdf) (1980). We all nodded. “Good,” he answered, “now let us think about how we identify those politics.” The following months we went over all the must reads from the actor-network world (John Law, Bruno Latour, Michel Callon to name a few), the Dutch scholars (Arie Rip, Judy Wajcman, and Wiebe Bijker), and Edinburgh’s own rooster (Robin himself, Donald MacKenzie, and Neil Pollok). For my thesis, I took apart Bitcoin and its claims to decentralisation. As [others](https://policyreview.info/articles/analysis/invisible-politics-bitcoin-governance-crisis-decentralised-infrastructure) [claimed](https://www.lrb.co.uk/the-paper/v41/n08/donald-mackenzie/pick-a-nonce-and-try-a-hash) before me, Bitcoin is, in short, centralised. 
 
-The reason why I study technology is because I care about controversies. They are the trail of blood left behind in cases of inequality, in cases of fraud, of plain bullshit. [Jathan Sadowksi](https://www.jathansadowski.com/) is right, “technology - both the things themselves and the larger industry - is one of the most important ways that power and authority exists today.” Just consider how Trump’s pick for vice president [leaped into power](https://www.nytimes.com/2024/07/17/technology/jd-vance-tech-silicon-valley.html).
+The reason why I study technology is because I care about controversies. They are the trail of blood left behind in cases of inequality, in cases of fraud, of plain bullshit. [Jathan Sadowksi](https://www.jathansadowski.com/) is right, “technology - both the things themselves and the larger industry - is one of the most important ways that power and authority exists today.” [^1]
+
+[^1]: Just consider how Trump’s pick for vice president [leaped into power](https://www.nytimes.com/2024/07/17/technology/jd-vance-tech-silicon-valley.html).
 
 Individuals shape technology. They decide what values to embed, what to prioritise, how to settle disputes. These individuals are the few. But, for better or worse, it is the many - us - that live by the consequences of those decisions.
 
