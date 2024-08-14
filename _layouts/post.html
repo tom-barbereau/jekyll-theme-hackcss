@@ -38,6 +38,12 @@ layout: default
 
   <div class="post-content" itemprop="articleBody">
     {{ content }}
+
+    {% if page.footnotes %}
+        <hr>
+        <h3>Footnotes</h3>
+        {{ page.footnotes }}
+        {% endif %}
   </div>
 
 </article>
