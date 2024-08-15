@@ -25,4 +25,32 @@ permalink: contact
 
   <p>Alternatively, you can also email me directly at <a target="_blank" href="mailto:tom.barbereau@tno.nl">tom.barbereau@tno.nl</a> or chat with me on <a target="_blank" href="https://t.me/tombarbereau">Telegram</a>.</p>
   
+<section>
+
+  <div class="grid t-hackcss-cards">
+
+    {% if site.social %}
+      {% for social in site.social %}
+      <div class="cell -6of12 t-hackcss-cards-cell">
+        <div class="card">
+          <header class="card-header">
+            <a href="{{ social.link }}" title="{{ social.service }}" target="_blank">
+              {{ social.service }}
+            </a>
+          </header>
+          <div class="card-content">
+            <div class="inner">
+              {% assign template = "icon-" | append: social.service | append: ".html" %}
+              <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endfor %}
+    {% endif %}
+
+  </div>
+
 </section>
+
+
