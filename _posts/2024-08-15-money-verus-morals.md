@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Money verus Morals
+title: Money versus Morals
 date: 2018-10-23
 author: external
 categories: news
