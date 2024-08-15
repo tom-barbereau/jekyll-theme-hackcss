@@ -9,22 +9,6 @@ permalink: contact
 
   <p>You can find, contact, or connect with me on the following platforms:</p>
 
-  <div class="social-links">
-  {% if site.social %}
-    <ul>
-      {% for social in site.social %}
-        {% assign template = "icon-" | append: social.service | append: ".html" %}
-        <li class="t-hackcss-social">
-          <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i> &nbsp
-          <a href="{{ social.link }}">{{ social.username }}</a>
-        </li>
-      {% endfor %}
-    </ul>
-  {% endif %}
-</div>
-
-  <p>Alternatively, you can also email me directly at <a target="_blank" href="mailto:tom.barbereau@tno.nl">tom.barbereau@tno.nl</a> or chat with me on <a target="_blank" href="https://t.me/tombarbereau">Telegram</a>.</p>
-  
 <section>
 
   <div class="grid t-hackcss-cards">
@@ -38,10 +22,12 @@ permalink: contact
               {{ social.service }}
             </a>
           </header>
-          <div class="card-content">
+          <div class="card-content" style="display: flex; justify-content: center; align-items: center; height: 150px;">
             <div class="inner">
               {% assign template = "icon-" | append: social.service | append: ".html" %}
-              <i class="t-hackcss-icon" aria-label="{{ social.service }} icon">{% include {{ template }} %}</i>
+              <i class="t-hackcss-icon" aria-label="{{ social.service }} icon" style="font-size: 48px;">
+                {% include {{ template }} %}
+              </i>
             </div>
           </div>
         </div>
@@ -52,5 +38,10 @@ permalink: contact
   </div>
 
 </section>
+
+
+  <p>Alternatively, you can also email me directly at <a target="_blank" href="mailto:tom.barbereau@tno.nl">tom.barbereau@tno.nl</a> or chat with me on <a target="_blank" href="https://t.me/tombarbereau">Telegram</a>.</p>
+  
+
 
 
