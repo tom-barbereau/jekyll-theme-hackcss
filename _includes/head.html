@@ -27,6 +27,14 @@
   <!-- Custom style -->
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
 
+  <!-- Global Font Style -->
+  <style>
+    /* Apply the custom font stack to the entire website */
+    body, h1, h2, h3, h4, h5, h6, p, a, div, span, ul, ol, li, table, th, td, input, button {
+      font-family: -apple-system, BlinkMacSystemFont, "avenir next", avenir, helvetica, "helvetica neue", ubuntu, roboto, noto, "segoe ui", arial, sans-serif !important;
+    }
+  </style>
+
   <!-- Feed -->
   <link rel="alternate" type="application/rss+xml" title="{{ site.title }}"
         href="{{ "/feed.xml" | prepend: site.baseurl }}" />
